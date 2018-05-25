@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DOe-b4-8v0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -71,6 +71,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-4359" y="124"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="X3X-ru-Bq3">
+            <objects>
+                <viewController id="DOe-b4-8v0" customClass="ViewController2" customModule="Adding_Dynamic_Label_In_Table_Cell" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xjK-LL-5MA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up you agree to our Terms &amp; Conditions and Privacy Policy" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BW-7T-UNz" customClass="ActiveLabel" customModule="ActiveLabel">
+                                <rect key="frame" x="0.0" y="20" width="375" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="21" id="0EV-HL-RAN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3BW-7T-UNz" firstAttribute="top" secondItem="t3y-Rt-WEe" secondAttribute="top" id="0hQ-O5-jgU"/>
+                            <constraint firstItem="t3y-Rt-WEe" firstAttribute="trailing" secondItem="3BW-7T-UNz" secondAttribute="trailing" id="2Ck-Ow-83w"/>
+                            <constraint firstItem="3BW-7T-UNz" firstAttribute="leading" secondItem="t3y-Rt-WEe" secondAttribute="leading" id="KrE-nf-hAa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="t3y-Rt-WEe"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblTest" destination="3BW-7T-UNz" id="eJH-M1-aTP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCs-4h-fJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3684" y="124"/>
         </scene>
     </scenes>
 </document>

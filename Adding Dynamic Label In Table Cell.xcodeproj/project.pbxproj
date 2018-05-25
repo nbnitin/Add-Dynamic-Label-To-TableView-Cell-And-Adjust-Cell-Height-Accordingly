@@ -13,9 +13,12 @@
 		9427E99720B53B350017A8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9427E99620B53B350017A8EC /* Assets.xcassets */; };
 		9427E99A20B53B350017A8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427E99820B53B350017A8EC /* LaunchScreen.storyboard */; };
 		9427E9A220B543F40017A8EC /* TagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427E9A120B543F30017A8EC /* TagTableViewCell.swift */; };
+		94484D1E20B7DA1F006B35BB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94484D1D20B7DA1F006B35BB /* ViewController2.swift */; };
+		CF6AC377E4520EF0EE5539BA /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA22347500F09ABB72705C5 /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AA22347500F09ABB72705C5 /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adding_Dynamic_Label_In_Table_Cell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9427E98C20B53B350017A8EC /* Adding Dynamic Label In Table Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Dynamic Label In Table Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9427E98F20B53B350017A8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9427E99120B53B350017A8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		9427E99920B53B350017A8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9427E99B20B53B350017A8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9427E9A120B543F30017A8EC /* TagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTableViewCell.swift; sourceTree = "<group>"; };
+		94484D1D20B7DA1F006B35BB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BA0354B9C141DB7E9E039557 /* Pods-Adding Dynamic Label In Table Cell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adding Dynamic Label In Table Cell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell.release.xcconfig"; sourceTree = "<group>"; };
+		D6281BA992EE2C5042EA177C /* Pods-Adding Dynamic Label In Table Cell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adding Dynamic Label In Table Cell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6AC377E4520EF0EE5539BA /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5914276FB2693530B94B8376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA22347500F09ABB72705C5 /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9427E98320B53B350017A8EC = {
 			isa = PBXGroup;
 			children = (
 				9427E98E20B53B350017A8EC /* Adding Dynamic Label In Table Cell */,
 				9427E98D20B53B350017A8EC /* Products */,
+				C514B29E322CA89EA09598D7 /* Pods */,
+				5914276FB2693530B94B8376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 		9427E98E20B53B350017A8EC /* Adding Dynamic Label In Table Cell */ = {
 			isa = PBXGroup;
 			children = (
+				94484D1D20B7DA1F006B35BB /* ViewController2.swift */,
 				9427E98F20B53B350017A8EC /* AppDelegate.swift */,
 				9427E99120B53B350017A8EC /* ViewController.swift */,
 				9427E99320B53B350017A8EC /* Main.storyboard */,
@@ -67,6 +85,15 @@
 			path = "Adding Dynamic Label In Table Cell";
 			sourceTree = "<group>";
 		};
+		C514B29E322CA89EA09598D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6281BA992EE2C5042EA177C /* Pods-Adding Dynamic Label In Table Cell.debug.xcconfig */,
+				BA0354B9C141DB7E9E039557 /* Pods-Adding Dynamic Label In Table Cell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9427E99E20B53B350017A8EC /* Build configuration list for PBXNativeTarget "Adding Dynamic Label In Table Cell" */;
 			buildPhases = (
+				6BDCEA4B384CF36D34D2BB16 /* [CP] Check Pods Manifest.lock */,
 				9427E98820B53B350017A8EC /* Sources */,
 				9427E98920B53B350017A8EC /* Frameworks */,
 				9427E98A20B53B350017A8EC /* Resources */,
+				917C0880A0449A36800E6A09 /* [CP] Embed Pods Frameworks */,
+				57F10029F74B5B8A5D9FE5CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,12 +164,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57F10029F74B5B8A5D9FE5CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDCEA4B384CF36D34D2BB16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adding Dynamic Label In Table Cell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917C0880A0449A36800E6A09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9427E98820B53B350017A8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9427E99220B53B350017A8EC /* ViewController.swift in Sources */,
+				94484D1E20B7DA1F006B35BB /* ViewController2.swift in Sources */,
 				9427E99020B53B350017A8EC /* AppDelegate.swift in Sources */,
 				9427E9A220B543F40017A8EC /* TagTableViewCell.swift in Sources */,
 			);
@@ -276,6 +361,7 @@
 		};
 		9427E99F20B53B350017A8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6281BA992EE2C5042EA177C /* Pods-Adding Dynamic Label In Table Cell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +376,7 @@
 		};
 		9427E9A020B53B350017A8EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0354B9C141DB7E9E039557 /* Pods-Adding Dynamic Label In Table Cell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
