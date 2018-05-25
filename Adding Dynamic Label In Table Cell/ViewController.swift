@@ -14,8 +14,8 @@ let height : CGFloat = 25
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tbl: UITableView!
-    let tagStr = "travel ,madrid,Bunch Club,Crepes & Waffles,Royal Palace of Madrid,Almudena Cathedral,Spain,Test"
-    let tagIdStr = "55,119,301,302,303,304,305,98"
+    let tagStr = "travel ,madrid,Bunch Club,Crepes & Waffles,Royal Palace of Madrid,Almudena Cathedral,Spain,Test,United Airlnes,United"
+    let tagIdStr = "55,119,301,302,303,304,305,98,1,32"
     
     override func viewDidLoad() {
         super.viewDidLoad()
