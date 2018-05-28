@@ -13,7 +13,8 @@
 		9427E99720B53B350017A8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9427E99620B53B350017A8EC /* Assets.xcassets */; };
 		9427E99A20B53B350017A8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427E99820B53B350017A8EC /* LaunchScreen.storyboard */; };
 		9427E9A220B543F40017A8EC /* TagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427E9A120B543F30017A8EC /* TagTableViewCell.swift */; };
-		94484D1E20B7DA1F006B35BB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94484D1D20B7DA1F006B35BB /* ViewController2.swift */; };
+		94484D1E20B7DA1F006B35BB /* ViewControllerWithPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94484D1D20B7DA1F006B35BB /* ViewControllerWithPod.swift */; };
+		9476D8C120BBC5E3009E5D7B /* ViewControllerWithOutPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476D8C020BBC5E3009E5D7B /* ViewControllerWithOutPod.swift */; };
 		CF6AC377E4520EF0EE5539BA /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA22347500F09ABB72705C5 /* Pods_Adding_Dynamic_Label_In_Table_Cell.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,8 @@
 		9427E99920B53B350017A8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9427E99B20B53B350017A8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9427E9A120B543F30017A8EC /* TagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTableViewCell.swift; sourceTree = "<group>"; };
-		94484D1D20B7DA1F006B35BB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		94484D1D20B7DA1F006B35BB /* ViewControllerWithPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithPod.swift; sourceTree = "<group>"; };
+		9476D8C020BBC5E3009E5D7B /* ViewControllerWithOutPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithOutPod.swift; sourceTree = "<group>"; };
 		BA0354B9C141DB7E9E039557 /* Pods-Adding Dynamic Label In Table Cell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adding Dynamic Label In Table Cell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell.release.xcconfig"; sourceTree = "<group>"; };
 		D6281BA992EE2C5042EA177C /* Pods-Adding Dynamic Label In Table Cell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adding Dynamic Label In Table Cell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adding Dynamic Label In Table Cell/Pods-Adding Dynamic Label In Table Cell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,10 +75,11 @@
 		9427E98E20B53B350017A8EC /* Adding Dynamic Label In Table Cell */ = {
 			isa = PBXGroup;
 			children = (
-				94484D1D20B7DA1F006B35BB /* ViewController2.swift */,
+				94484D1D20B7DA1F006B35BB /* ViewControllerWithPod.swift */,
 				9427E98F20B53B350017A8EC /* AppDelegate.swift */,
 				9427E99120B53B350017A8EC /* ViewController.swift */,
 				9427E99320B53B350017A8EC /* Main.storyboard */,
+				9476D8C020BBC5E3009E5D7B /* ViewControllerWithOutPod.swift */,
 				9427E9A120B543F30017A8EC /* TagTableViewCell.swift */,
 				9427E99620B53B350017A8EC /* Assets.xcassets */,
 				9427E99820B53B350017A8EC /* LaunchScreen.storyboard */,
@@ -223,8 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9476D8C120BBC5E3009E5D7B /* ViewControllerWithOutPod.swift in Sources */,
 				9427E99220B53B350017A8EC /* ViewController.swift in Sources */,
-				94484D1E20B7DA1F006B35BB /* ViewController2.swift in Sources */,
+				94484D1E20B7DA1F006B35BB /* ViewControllerWithPod.swift in Sources */,
 				9427E99020B53B350017A8EC /* AppDelegate.swift in Sources */,
 				9427E9A220B543F40017A8EC /* TagTableViewCell.swift in Sources */,
 			);
